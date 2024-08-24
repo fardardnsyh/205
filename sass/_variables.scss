@@ -1,0 +1,20 @@
+// Color variables
+$purpleLight: #302D43;
+$purpleDark: #282639;
+$greenNeon: #92CF48;
+$greyLightBG: #F4F6F9;
+$greyDarkBG: #EAEDF3;
+$purpleText: #744BCE;
+$greyLightText: #BBC1CD;
+$greyLightText2: #A5ADBD;
+$greyText: #1B1B1B;
+$orange: #F48320;
+$white: #FFF;
+
+// Grid system variables
+$grid-columns: 12;
+$grid-max-width: 1200px; // small break point
+$breakpoint-small: "only screen and (min-width: 0px)";
+$breakpoint-medium: "only screen and (min-width: 768px)";
+$breakpoint-large: "only screen and (min-width: 1008px)";
+$breakpoint-xl: "only screen and (min-width: 1300px)";

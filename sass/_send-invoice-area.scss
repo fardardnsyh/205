@@ -1,0 +1,146 @@
+#send-invoice-area {
+    margin-left: 280px;
+    padding: 15px;
+}
+
+.heading {
+    h1 {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: $purpleText;
+        margin-bottom: 0.5em;
+    }
+    
+    p {
+        font-size: 0.85rem;
+        font-weight: 400;
+        color: $greyText;
+        margin-bottom: 0.84em;
+    }
+}
+
+.cards {
+    // overflow: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+    .card {
+        background-color: $white;
+        border-radius: 5px;
+        padding: 20px;
+        overflow: auto;
+        height: 350px;
+        min-width: 300px;
+        max-width: 530px;
+        overflow: hidden;
+        
+        .user-img {
+            background: url("https://mcdn.wallpapersafari.com/medium/8/80/DyQF8O.jpg"); 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-position-x: -50px;
+            width: 115px;
+            height: 115px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        
+        .user-name {
+            display: block;
+            text-align: center;
+            font-size: 1rem;
+            color: $purpleText;
+            margin: 10px 0;
+        }
+        
+        .user-title {
+            display: block;
+            text-align: center;
+            font-size: 0.8rem;
+            color: $greyText;
+            margin: 10px 0;
+        }
+        
+        .education {
+            color: $greyText;
+            display: inline-block;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-left: -5px;
+            
+        }
+        
+        .schools {
+            display: block;
+            font-size: 0.9rem;
+        }
+        
+        h6 {
+            font-size: 0.8rem;
+            color: $greyDarkBG;
+        }
+        
+        .date {
+            display: block;
+            font-size: 1.4rem;
+            border-left: 5px solid $greenNeon;
+            position: relative;
+            left: -20px;
+            padding: 5px 40px;
+            margin: 20px 0;
+        }
+        
+        .month {
+            border-left-color: $purpleText;
+        }
+        
+        .job-type {
+            display: inline-block;
+            font-size: 0.7rem;
+            color: $white;
+            background-color: orange;
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            border-radius: 50%;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        .company {
+            font-size: 0.9rem;
+            font-weight: 300;
+            display: block;
+            margin-bottom: 0.56rem
+        }
+        
+        .contract-type {
+            font-weight: 500;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 0.56rem
+            
+        }
+        
+        .time {
+            display: block;
+            color: $greyText;
+            font-weight: 300;
+            font-size: 0.9rem;
+            margin-bottom: 0.56rem
+        }
+        
+        
+    }
+}
+
+// Chart
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 70%;
+}
